@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+"f042f4_can_i2c\startup_stm32f042x6.o"
+"f042f4_can_i2c\system_stm32f0xx.o"
+"f042f4_can_i2c\main.o"
+"f042f4_can_i2c\stm32f0xx_it.o"
+"f042f4_can_i2c\stm32f0xx_hal_msp.o"
+"f042f4_can_i2c\stm32f0xx_hal_cortex.o"
+"f042f4_can_i2c\stm32f0xx_hal_tim_ex.o"
+"f042f4_can_i2c\stm32f0xx_hal_rcc.o"
+"f042f4_can_i2c\stm32f0xx_hal_rcc_ex.o"
+"f042f4_can_i2c\stm32f0xx_hal_i2c_ex.o"
+"f042f4_can_i2c\stm32f0xx_hal_i2c.o"
+"f042f4_can_i2c\stm32f0xx_hal_dma.o"
+"f042f4_can_i2c\stm32f0xx_hal_flash.o"
+"f042f4_can_i2c\stm32f0xx_hal_pwr_ex.o"
+"f042f4_can_i2c\stm32f0xx_hal_gpio.o"
+"f042f4_can_i2c\stm32f0xx_hal.o"
+"f042f4_can_i2c\stm32f0xx_hal_pwr.o"
+"f042f4_can_i2c\stm32f0xx_hal_tim.o"
+"f042f4_can_i2c\stm32f0xx_hal_flash_ex.o"
+"f042f4_can_i2c\stm32f0xx_hal_can.o"
+--library_type=microlib --strict --scatter "F042F4_CAN_I2C\F042F4_CAN_I2C.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F042F4_CAN_I2C.map" -o F042F4_CAN_I2C\F042F4_CAN_I2C.axf
